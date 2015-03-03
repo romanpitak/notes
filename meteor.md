@@ -99,3 +99,94 @@ reactive data sources:
 - Meteor.user
 - Meteor.userId
 - Meteor.loggingIn
+
+## live HTML templates
+
+Spacebars - hate on sight
+
+Jade is note in core. The community package has **issues**, but looks good.
+
+## Namespacing
+
+In `js` when `var` is omitted => scope is package.
+
+**Package scope experimental in CoffeeScript!**
+
+Used **meteor-level** packages export variables into global scope.
+If I use `A` and `A` uses `B` only exports from `A` are global
+<= dependencies don't leak globals.
+
+## Packages
+
+### appcache
+
+stores the static parts of a Meteor application (the client side Javascript, HTML, CSS, and images) in the browser's application cache
+
+it's best to keep the size of the cache below 5MB
+
+```coffee-script
+Meteor.AppCache.config
+    onlineOnly: [
+        '/online/'
+        '/bigimage.jpg'
+    ]
+```
+
+**!!!exclusion is by prefix** a limitation of the application cache manifest
+=> `/bigimage.jpg/another.file` will also be excluded
+
+### accounts-ui
+
+needs at least one login provider - one of:
+
+- accounts-password
+- accounts-facebook
+- accounts-github
+- accounts-google
+- accounts-twitter
+- accounts-weibo
+
+includes modal popup dialogs to handle links from sendResetPasswordEmail, sendVerificationEmail, and sendEnrollmentEmail
+
+include widget:
+
+    {{> loginButtons}}
+
+### audit-argument-checks
+
+require that all arguments passed to methods and publish functions are checked
+
+### coffeescript
+
+supports litcoffee
+
+There is no way to make a package-scope variable from a .coffee file other than exporting it, but
+**EXPERIMENTAL** -> An object called share is visible in CoffeeScript code and is shared across all .coffee files in the same package.
+
+### jquery
+
+### less
+
+### markdown
+
+    {{#markdown}} ... {{/markdown}}
+
+Template features (e.g. `{{#each}}`) work inside a Markdown block.
+
+### oauth-encryption
+
+Encrypts sensitive account credential information stored in the database
+
+### random
+
+cryptographically strong pseudorandom number generator when possible, but falls back to a weaker random number generator when cryptographically strong randomness is not available
+
+### underscore
+
+functional programming
+
+available by default, but this will change => include it explicitly
+
+### webapp
+
+serve content to a web browser
