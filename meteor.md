@@ -190,3 +190,19 @@ available by default, but this will change => include it explicitly
 ### webapp
 
 serve content to a web browser
+
+## Meteor meetup Prague 2015-03-03
+
+color palette in material design
+
+polymer-project.org
+
+polymer-designer.appspot.com
+
+Proposal for blaze 2
+
+rubber ducking with a video.
+
+coffee2js web page to convert - good source?
+
+docs -> method stubs
