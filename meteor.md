@@ -209,7 +209,7 @@ docs -> method stubs
 
 ## Rosto
 
-meteor + meteoris
+meteor + [meteoris](http://meteoris.me/)
 
     meteor create test --release 0.6.0
 
