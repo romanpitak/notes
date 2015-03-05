@@ -206,3 +206,22 @@ rubber ducking with a video.
 coffee2js web page to convert - good source?
 
 docs -> method stubs
+
+## Rosto
+
+meteor + meteoris
+
+    meteor create test --release 0.6.0
+
+install meteoris generator
+
+    git clone https://github.com/radiegtya/meteoris.git
+
+Rename directory to your desired name "ex: meteoris to myproject" Change dir to your apps then just run "sudo meteor". Then type "localhost:3000" in your browser. There will be a running DEMO to get you started easily. Register your account from registration page, then loging in using those account. You can then use the demo CRUDSS app. If you want to quickly make your own page, just try using generator.
+
+### sources
+
+- http://meteoris.me/
+- https://github.com/radiegtya/meteoris
+- http://avocadofloat.com/publicDocs/index/Ku9o2ZJS9k3nPZtzy
+- https://gist.github.com/gabrielhpugliese/5855677
