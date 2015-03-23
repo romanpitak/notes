@@ -21,3 +21,7 @@
 </blockquote>
 
 
+<blockquote>
+<p>He was great not because he had the best tools, the most efficient or the most effective technique, but because he took a great pride and satisfaction in his job. His work was - it was clear - not merely something he did but something he enjoyed and something that was a reflection on him as an individual.</p>
+<footer>— <cite><a href="http://www.quora.com/Is-it-extremely-hard-to-be-a-really-good-programmer/answer/Kristoph-Cichocki-Romanov?srid=nvqu&share=1"target="_blank">Kristoph Cichocki-Romanov</a></cite></footer>
+</blockquote>
