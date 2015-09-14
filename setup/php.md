@@ -1,20 +1,27 @@
 # PHP
 
-## Composer
+## Tools
+
+### `composer`
 
 ```bash
 curl 'https://getcomposer.org/composer.phar' --output "${HOME}/bin/composer"
 chmod u+x "${HOME}/bin/composer"
 ```
 
-## Local PHP versions
+### `phpunit`
+
+```bash
+curl 'https://phar.phpunit.de/phpunit.phar' --output "${HOME}/bin/phpunit"
+chmod u+x "${HOME}/bin/phpunit"
+```
+
+### `phpenv`
 
 There is a [phpenv/phpenv](https://github.com/phpenv/phpenv) version,
 but it looks unmaintained at the time of writing (2015-09-14)
 so I'm using [CHH/phpenv](https://github.com/CHH/phpenv).
 Also - Travis CI uses the CCH version.
-
-### `phpenv` installation
 
 The `PHPENV_ROOT` (temporary (for now)) variable
 specifies the installation destination.
