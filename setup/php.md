@@ -4,6 +4,7 @@
 
 ```bash
 curl 'https://getcomposer.org/composer.phar' --output "${HOME}/bin/composer"
+chmod u+x "${HOME}/bin/composer"
 ```
 
 ## Local PHP versions
