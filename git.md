@@ -16,7 +16,7 @@
     - **Last `merge --sqash`**
         - *before `commit`* - `git merge --abort`
         - *after `commit`* - `git reset --hard HEAD~1`
-    **On remote** - Don't. Just don't. It can't be that bad.
+    - **On remote** - Don't. Just don't. It can't be that bad.
 
 ## Sources
 
