@@ -45,56 +45,96 @@ License recognition and synchronisation
 
 <table>
     <tr>
-        <td colspan="2">dependencies</td>
+        <th colspan="2">dependencies</th>
     </tr>
     <tr>
         <td>Gemnasium</td>
-        <td>[![Gemnasium dependencies](https://img.shields.io/gemnasium/romanpitak/pfm.svg)](https://www.npmjs.com/package/pfm)</td>
+        <td>
+
+[![Gemnasium dependencies](https://img.shields.io/gemnasium/romanpitak/pfm.svg)](https://www.npmjs.com/package/pfm)
+
+        </td>
     </tr>
     <tr>
         <td>DavidDm</td>
-        <td>[![DavidDm dependencies](https://img.shields.io/david/romanpitak/pfm.svg)](https://david-dm.org/romanpitak/pfm)</td>
+        <td>
+
+[![DavidDm dependencies](https://img.shields.io/david/romanpitak/pfm.svg)](https://david-dm.org/romanpitak/pfm)
+
+        </td>
     </tr>
     <tr>
         <td>DavidDm dev</td>
-        <td>[![DavidDm dev dependencies](https://img.shields.io/david/dev/romanpitak/pfm.svg)](https://david-dm.org/romanpitak/pfm#info=devDependencies)</td>
+        <td>
+
+[![DavidDm dev dependencies](https://img.shields.io/david/dev/romanpitak/pfm.svg)](https://david-dm.org/romanpitak/pfm#info=devDependencies)
+
+        </td>
     </tr>
     <tr>
         <td>Versioneye</td>
-        <td>[![Versioneye dependencies](https://www.versioneye.com/nodejs/pfm/badge.svg)](https://www.versioneye.com/nodejs/pfm)</td>
+        <td>
+
+[![Versioneye dependencies](https://www.versioneye.com/nodejs/pfm/badge.svg)](https://www.versioneye.com/nodejs/pfm)
+
+        </td>
     </tr>
     <tr>
-        <td colspan="2">Issues</td>
+        <th colspan="2">Issues</th>
     </tr>
     <tr>
         <td>GitHub</td>
-        <td>![GitHub issues](https://img.shields.io/github/issues/romanpitak/pfm.svg)</td>
+        <td>
+
+![GitHub issues](https://img.shields.io/github/issues/romanpitak/pfm.svg)
+
+        </td>
     </tr>
     <tr>
-        <td colspan="2">Versions synchronisation</td>
+        <th colspan="2">Versions synchronisation</th>
     </tr>
     <tr>
         <td>npm version</td>
-        <td>[![npm version](https://img.shields.io/npm/v/pfm.svg)](https://www.npmjs.com/package/pfm)</td>
+        <td>
+
+[![npm version](https://img.shields.io/npm/v/pfm.svg)](https://www.npmjs.com/package/pfm)
+
+        </td>
     </tr>
     <tr>
         <td>GitHub tag</td>
-        <td>![GitHub tag](https://img.shields.io/github/tag/romanpitak/pfm.svg)</td>
+        <td>
+
+![GitHub tag](https://img.shields.io/github/tag/romanpitak/pfm.svg)
+
+        </td>
     </tr>
     <tr>
         <td>GitHub release</td>
-        <td>![GitHub release](https://img.shields.io/github/release/romanpitak/pfm.svg)</td>
+        <td>
+
+![GitHub release](https://img.shields.io/github/release/romanpitak/pfm.svg)
+
+        </td>
     </tr>
     <tr>
-        <td colspan="2">License recognition and synchronisation</td>
+        <th colspan="2">License recognition and synchronisation</th>
     </tr>
     <tr>
         <td>npm</td>
-        <td>[![npm license](https://img.shields.io/npm/l/pfm.svg)](https://www.npmjs.com/package/pfm)</td>
+        <td>
+
+[![npm license](https://img.shields.io/npm/l/pfm.svg)](https://www.npmjs.com/package/pfm)
+
+        </td>
     </tr>
     <tr>
         <td>GitHub</td>
-        <td>![GitHub license](https://img.shields.io/github/license/romanpitak/pfm.svg)</td>
+        <td>
+
+![GitHub license](https://img.shields.io/github/license/romanpitak/pfm.svg)
+
+        </td>
     </tr>
 </table>
 
